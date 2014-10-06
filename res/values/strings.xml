@@ -8,6 +8,7 @@
     <string name="altura_text">Altura (cm):</string>
     <string name="calculo_imc_button">Calcular Indice de Masa Corporal</string>
     <string name="log_tag">IMC_DEBUG</string>
+    <string name="oms_text">Clasificación de la OMS</string>
     
 
 </resources>

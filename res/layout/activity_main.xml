@@ -45,4 +45,16 @@
         android:onClick="onButtonClickCalcularIMC"
         android:text="@string/calculo_imc_button" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oms_text" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..." />
+
 </LinearLayout>

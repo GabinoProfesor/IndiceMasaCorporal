@@ -4,7 +4,7 @@
   <class id="1" language="java" name="com.example.indicedemasacorporal.MainActivity" project="IndiceDeMasaCorporal" 
     file="/IndiceDeMasaCorporal/src/com/example/indicedemasacorporal/MainActivity.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="152" width="263" x="307" y="37"/>    
+    <position height="-1" width="-1" x="449" y="120"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -15,13 +15,54 @@
     project="IndiceDeMasaCorporal" 
     file="/IndiceDeMasaCorporal/src/com/example/indicedemasacorporal/IndiceMasaCorporal.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="206" width="226" x="41" y="37"/>    
+    <position height="-1" width="-1" x="171" y="175"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
+  <class id="3" language="java" name="com.example.indicedemasacorporal.IndiceMasaCorporalException" 
+    project="IndiceDeMasaCorporal" 
+    file="/IndiceDeMasaCorporal/src/com/example/indicedemasacorporal/IndiceMasaCorporalException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="711" y="56"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.example.indicedemasacorporal.IndiceMasaCorporalPesoException" 
+    project="IndiceDeMasaCorporal" 
+    file="/IndiceDeMasaCorporal/src/com/example/indicedemasacorporal/IndiceMasaCorporalPesoException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="615" y="337"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.example.indicedemasacorporal.IndiceMasaCorporalAlturaException" 
+    project="IndiceDeMasaCorporal" 
+    file="/IndiceDeMasaCorporal/src/com/example/indicedemasacorporal/IndiceMasaCorporalAlturaException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="891" y="342"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
